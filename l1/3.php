@@ -5,8 +5,8 @@
 <body>
 <?php
 
-	$a = 23;
-	$b = 53;
+	$a = 0;
+	$b = 1000;
 	$start = microtime(true);
 	for ($i = $a; $i <= $b; $i++) {
 		$d = 0;
