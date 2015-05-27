@@ -8,20 +8,20 @@
 
 		1 => array(
 
-			"name" => "Маша",
-			"secondName" => "",
+			"name" => "Мария",
+			"secondName" => "Подосенова",
 			"age" => "",
-			"city" => "",
-			"photo" => "./images/"
+			"city" => "Ульянвоск",
+			"photo" => "./images/maria.jpg"
 
 		),
 		2 => array(
 
-			"name" => "Таня",
-			"secondName" => "",
+			"name" => "Татьяна",
+			"secondName" => "Белоусова",
 			"age" => "",
-			"city" => "",
-			"photo" => "./images/"
+			"city" => "Ульяновск",
+			"photo" => "./images/tanya.jpg"
 
 		),
 		3 => array(
