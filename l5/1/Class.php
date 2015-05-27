@@ -6,11 +6,11 @@ class Word {
 	private $words = array();
 	private $n = 0;
 	
-	public function setText($file) {
+	public function setText($file, $sep = " ") {
 		foreach (file($file) as $line) {
 			$this->text .= htmlspecialchars($line) . " ";
 		}
-		$this->words = explode(" ", $this->text);
+		$this->words = explode($sep, $this->text);
 	}
 	
 	public function getText() {
